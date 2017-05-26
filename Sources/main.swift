@@ -5,7 +5,7 @@ import Swift_Sandbox_Model
 
 // MARK: - Encoding and decoding
 
-let groceryTask = Swift_Sandbox_Model.Task(id: "abc123", title: "Do grocery shopping", isDone: false)
+let groceryTask = Assignment(id: "abc123", title: "Do grocery shopping", isDone: false)
 var encodedGroceryTask: Data?
 
 let encoder = JSONEncoder()
@@ -23,7 +23,7 @@ if let encodedTask = try? encoder.encode(groceryTask) {
 }
 
 // Decode `Data` into Swift struct type like a boss 😎
-if let decodedTask = try? decoder.decode(Swift_Sandbox_Model.Task.self, from: encodedGroceryTask!) {
+if let decodedTask = try? decoder.decode(Assignment.self, from: encodedGroceryTask!) {
 	print(decodedTask)
 }
 
