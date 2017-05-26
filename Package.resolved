@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Swift-Sandbox-Model",
+        "repositoryURL": "https://github.com/pajapro/Swift-Sandbox-Model",
+        "state": {
+          "branch": null,
+          "revision": "c45cd51effe449d434891e425f49e487d6ac6635",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

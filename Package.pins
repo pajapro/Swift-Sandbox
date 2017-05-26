@@ -1,0 +1,12 @@
+{
+  "autoPin": true,
+  "pins": [
+    {
+      "package": "Swift-Sandbox-Model",
+      "reason": null,
+      "repositoryURL": "https://github.com/pajapro/Swift-Sandbox-Model",
+      "version": "1.0.0"
+    }
+  ],
+  "version": 1
+}
